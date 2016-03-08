@@ -104,7 +104,5 @@ class FaceView: UIView {
         let smiliness = dataSource?.smilinessForFaceView(self) ?? 0.0
         let smilePath = bezierPathForSmile(smiliness)
         smilePath.stroke()
-        
-        
     }
 }

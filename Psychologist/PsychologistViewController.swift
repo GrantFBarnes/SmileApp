@@ -17,7 +17,6 @@ class PsychologistViewController: UIViewController {
         performSegueWithIdentifier("nothing", sender: nil)
     }
     
-    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         var destination = segue.destinationViewController as UIViewController

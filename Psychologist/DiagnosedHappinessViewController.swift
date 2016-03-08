@@ -21,7 +21,6 @@ class DiagnosedHappinessViewController: HappinessViewController, UIPopoverPresen
         }
     }
     
-    
     private let defaults = NSUserDefaults.standardUserDefaults()
     
     var diagnosticHistory: [Int] {
@@ -52,5 +51,4 @@ class DiagnosedHappinessViewController: HappinessViewController, UIPopoverPresen
     func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
         return UIModalPresentationStyle.None
     }
-    
 }

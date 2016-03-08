@@ -16,7 +16,6 @@ class HappinessViewController: UIViewController, FaceViewDataSource {
             faceView.addGestureRecognizer(UIPinchGestureRecognizer(target: faceView, action: "scale:"))
         }
     }
-
     
     private struct Constants {
         static let HappinessGestureScale: CGFloat = 1
@@ -36,7 +35,6 @@ class HappinessViewController: UIViewController, FaceViewDataSource {
         default: break
             
         }
-        
     }
     
     

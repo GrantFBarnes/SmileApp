@@ -22,7 +22,6 @@ class TextViewController: UIViewController {
             textView?.text = text
         }
     }
-
     
     override var preferredContentSize: CGSize {
         get {
@@ -31,7 +30,6 @@ class TextViewController: UIViewController {
             } else {
                 return super.preferredContentSize
             }
-            
         }
         set { super.preferredContentSize = newValue }
     }
